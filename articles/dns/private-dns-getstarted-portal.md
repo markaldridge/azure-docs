@@ -5,7 +5,7 @@ services: dns
 author: rohinkoul
 ms.service: dns
 ms.topic: quickstart
-ms.date: 10/11/2019
+ms.date: 111/2019
 ms.author: rohink
 #Customer intent: As an experienced network administrator I want to create an  Azure private DNS zone, so I can resolve host names on my private virtual networks.
 ---
@@ -63,9 +63,9 @@ In this section you'll need to replace the following parameters in the steps wit
 | **\<resource-group-name>**  | MyAzureResourceGroup (Select existing resource group) |
 | **\<virtual-network-name>** | MyAzureVNet          |
 | **\<region-name>**          | West Central US      |
-| **\<IPv4-address-space>**   | 10.2.0.0\16          |
+| **\<IPv4-address-space>**   | 10.2.0.0/16          |
 | **\<subnet-name>**          | MyAzureSubnet        |
-| **\<subnet-address-range>** | 10.2.0.0\24          |
+| **\<subnet-address-range>** | 10.2.0.0/24          |
 
 
 [!INCLUDE [virtual-networks-create-new](../../includes/virtual-networks-create-new.md)]
